@@ -17,3 +17,4 @@ hashcat -m 0 -a 3 -d 1 passwd_dump.txt
 ```
 Here I am using hash type as __MD5__ ,attck type __Brute Force__ , then I selected device as -d 1, as Device 1 was my GPU. GPU makes it easier to compute the hashes.
 After performing command hashcat will use your CPU/GPU for computing those hashes to a valid password format.
+Please follow the __solution-statement__ for analysis.
